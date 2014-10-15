@@ -2,6 +2,6 @@ body {
     background-color: #C6C5C5;
 }
 
-li#special-list-item {
+li.red {
     color: #AA3939;
 }
