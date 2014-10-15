@@ -6,6 +6,15 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/foundation.css">
 
 
+  <script type="text/javascript">
+
+    function hello(){
+      alert("Hello there!");
+    }
+
+
+  </script>
+
 </head>
 <body>
   <div class='row'>  
@@ -48,10 +57,14 @@
         </p>
       </div>
   
+      <div class='row' id="hello-button-row">
+        <a class='large radius button' id="hello-button" onclick="hello();"> Say hello! </a>
+      </div>
 
 
-    Some JavaScript examples:
     <hr>
+    Some JavaScript examples:
+
     <ul>
       <li><a href="js_examples/checked/checked.html">The checked box</a></li>
       <li><a href="js_examples/unclickable_box/unclickable_box.html">The unclickable box</a></li>
