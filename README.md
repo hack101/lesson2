@@ -1,6 +1,5 @@
 
-Hack101: Lesson 2
-==================
+## II. HTML and Frontend programming
 
 ### Introduction
 
